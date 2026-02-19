@@ -1,5 +1,6 @@
-length = float(input("Enter the length of the lawn (metres): "))
-width = float(input("Enter the width of the lawn (metres): "))
-area = length * width
-seed_required = area * 50
-print(f"Grass seed required: {seed_required:.1f} grams")
+time24 = float(input('Provide the time in the form 18.25: '))
+if time24 < 13.0:
+    print(time24)
+else:
+    time12 = time24 - 12
+    print(time12)

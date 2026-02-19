@@ -1,6 +1,4 @@
-import math
+import random
 
-diameter = float(input("Enter the diameter of the sphere (metres): "))
-radius = diameter / 2
-volume = (4/3) * math.pi * radius**3
-print(f"Volume of the sphere: {volume:.2f} cubic metres")
+my_random_number = random.randint(1, 6)
+print(my_random_number)
